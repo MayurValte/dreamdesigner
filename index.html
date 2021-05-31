@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dream Designer</title>
-	<meta charset="utf-8">
+	<!-- <meta charset="utf-8"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	  <style>
@@ -35,13 +35,13 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#designs">Designs</a>
+        <a class="nav-link" href="logo.html">Designs</a>
       </li>
           <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item text-primary" href="#Services">Graphics Design</a>
-          <a class="dropdown-item text-primary" href="#Services">Website Development</a>
+          <a class="dropdown-item text-primary" href="logo.html">Graphics Design</a>
+          <a class="dropdown-item text-primary" href="web.html">Website Development</a>
           <!-- <div class="dropdown-divider"></div> -->
           <a class="dropdown-item text-primary" href="#Services">Poster Design</a>
         </div>
@@ -104,7 +104,7 @@
 </div>
 
 <section class="mb-5" id="Services">
-  <h1 class="text-center text-capitalize pt-3 ml-2">Our Services</h1>
+  <h1 class="text-center text-capitalize pt-3 ml-2 font-weight-bold">Our Services</h1>
   <hr class="w-25 mx-auto pb-1">
   <div class="container">
   <div class="row">
@@ -115,7 +115,7 @@
   <div class="card-body bg-info">
     <h5 class="card-title text-center font-weight-bold text-light">Logo Design</h5>
     <p class="card-text text-light">We Design Logo For Your Business ,to make online as well as offline presence of your brand, and make a positive impact on your customer.</p>
-    <a href="#" class="btn btn-primary mt-4 bg-danger">View Sample</a>
+    <a href="logo.html" class="btn btn-primary mt-4 bg-danger">View Sample</a>
   </div>
 </div>
 
@@ -128,7 +128,7 @@
   <div class="card-body bg-info">
     <h5 class="card-title text-light font-weight-bold text-center">Web Development</h5>
     <p class="card-text text-light">We Design Your Website for you business and your portfolio, to make more impressive representation of your business on digital platform</p>
-    <a href="#" class="btn btn-primary mt-4 bg-danger">View Sample</a>
+    <a href="web.html" class="btn btn-primary mt-4 bg-danger">View Sample</a>
   </div>
 </div>
 
@@ -155,7 +155,7 @@
 </section>
 
 <section class="container" id="aboutus">
-  <h1 class="text-center text-capitalize pt-3 ml-2">About US</h1>
+  <h1 class="text-center text-capitalize pt-3 ml-2 font-weight-bold">About US</h1>
   <hr class="w-25 mx-auto pb-1">
 
   <div class="row mb-5">
@@ -170,7 +170,8 @@
         <br><br>
         We are trying new things everyday , We provide Great Quality of design and innovative ideas for customer satisfaction, makes innovative ideas so that audience get attention of your product, We design logo,Poster,calligraphy art, Vector Art, Banner Designs,Typography Art, And many more.
       </p>
-      <button class="btn text-center text-denger btn-outline-danger mx-auto">Contact US</button>
+      <!-- <button class="btn text-center text-denger btn-outline-danger mx-auto">Contact US</button> -->
+      <a href="#contactus" class="btn btn-light text-center text-denger btn-outline-danger mx-auto">Contact US</a>
     </div>
   </div>
 
@@ -180,7 +181,7 @@
 
 
 <section class="container mb-5" id="designs">
-    <h1 class="text-center text-capitalize pt-3 ml-2">Design</h1>
+    <h1 class="text-center text-capitalize pt-3 ml-2 font-weight-bold">Design</h1>
   <hr class="w-25 mx-auto pb-1">
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -210,6 +211,40 @@
   </a>
 </div>
 	</section>
+
+<section class="container mb-5 bg-info" id="contactus">
+    <h1 class="text-center text-capitalize pt-3 ml-2 font-weight-bold text-light">Contact US</h1>
+  <hr class="w-25 mx-auto pb-1">
+  <div class="w-50 mx-auto">
+  <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email" class="font-weight-bold">Full Name:</label>
+    <input type="email" class="form-control" placeholder="Enter Name" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd" class="font-weight-bold">Email</label>
+    <input type="password" class="form-control" placeholder="Enter Email" id="pwd">
+  </div>
+   <div class="form-group">
+    <label for="pwd" class="font-weight-bold">Message</label>
+    <input type="password" class="form-control" placeholder="Enter Message" id="pwd">
+  </div>
+  <div class="form-group form-check">
+  </div>
+  <button type="submit" class="btn btn-danger">Submit</button>
+</form>
+</div>
+</section>
+<section>
+  <div class="container text-light text-center bg-dark">
+    <h3 class="mb-3">Connect With US</h3>
+    <a href="https://www.instagram.com/mayur_valte_patil/" class="btn btn-danger">Instagram</a>
+    <a href="https://dreamdesigner.co.in/" class="btn btn-danger">Website</a>
+    <a href="https://www.linkedin.com/in/mayurvalte9/" class="btn btn-danger">LinkedIn</a>
+    <p class="mt-3">All Rights Reserved</p>
+  </div>
+</section>
+
 
 
 
